@@ -27,12 +27,9 @@ implementations.
 ### Overview
 The linear regression model is implemented using the normal equation:
 
-\[
-w = (X^\dagger) y
-\]
+w = (X^T X)^(-1) X^T y
 
-where \(X^\dagger\) is the Moore–Penrose pseudoinverse of the design
-matrix with an explicitly added bias term.
+where X includes an explicitly added bias term.
 
 ### Key Characteristics
 - No gradient descent
