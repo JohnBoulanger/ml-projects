@@ -1,1 +1,3 @@
 pytorch/data/
+*.pth
+*.pt
